@@ -1,5 +1,5 @@
 function F = Box_8(X1,X2,Percentile)
-% X1:4 - data; Name1 - name of the distribution
+% X1:2 - data; 
 
 group10 = [zeros(length(X1(:,1)),1)',ones(length(X1(:,2)),1)',zeros(length(X1(:,3)),1)'+2,...
     zeros(length(X1(:,4)),1)'+3];
